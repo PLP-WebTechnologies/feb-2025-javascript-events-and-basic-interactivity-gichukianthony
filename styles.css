@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f0f0f0;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#hoverBox {
+  width: 200px;
+  height: 100px;
+  margin: 20px auto;
+  background: lightblue;
+  line-height: 100px;
+  transition: background 0.3s;
+}
+
+#hoverBox:hover {
+  background: orange;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.tabBtn {
+  margin: 5px;
+  padding: 10px;
+}
+
+.tabContent {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  width: 80%;
+}
+
+#passwordFeedback {
+  display: block;
+  margin: 5px auto;
+  color: red;
+}
+
+.success {
+  color: green;
+}

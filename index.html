@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Event Assignment</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>🎉 Welcome to My JS Event Playground 🎉</h1>
+
+  <!-- Button Click -->
+  <button id="magicBtn">Click Me!</button>
+
+  <!-- Hover Box -->
+  <div id="hoverBox">Hover Over Me</div>
+
+  <!-- Keypress Detection -->
+  <p id="keyDisplay">Press any key...</p>
+
+  <!-- Secret Double Click -->
+  <button id="secretBtn">Double Click Me</button>
+
+  <!-- Image Gallery -->
+  <div class="gallery">
+    <img id="galleryImage" src="https://picsum.photos/200?random=1" alt="Gallery" />
+    <br />
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tabBtn" data-target="content1">Tab 1</button>
+    <button class="tabBtn" data-target="content2">Tab 2</button>
+    <div class="tabContent" id="content1">This is tab 1 content.</div>
+    <div class="tabContent" id="content2" style="display: none;">This is tab 2 content.</div>
+  </div>
+
+  <!-- Form -->
+  <form id="signupForm">
+    <h2>Sign Up Form</h2>
+    <input type="text" id="username" placeholder="Username" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <span id="passwordFeedback"></span>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
